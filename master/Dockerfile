@@ -1,6 +1,6 @@
-FROM bde2020/spark-base:3.1.1-hadoop3.2
+FROM dfunto/spark-base:3.1.1-hadoop3.2
 
-LABEL maintainer="Gezim Sejdiu <g.sejdiu@gmail.com>, Giannis Mouchakis <gmouchakis@gmail.com>"
+LABEL maintainer="Danilo Dutra <dadutra2@gmail.com>"
 
 COPY master.sh /
 

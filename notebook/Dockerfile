@@ -1,6 +1,6 @@
-FROM bde2020/spark-base:3.1.1-hadoop3.2
+FROM dfunto/spark-base:3.1.1-hadoop3.2
 
-LABEL maintainer="Danilo Dutra <danilo.castro@synapcom.com.br>"
+LABEL maintainer="Danilo Dutra <dadutra2@gmail.com>"
 
 # Set environment variables
 ENV SPARK_MASTER "spark://spark-master:7077"
